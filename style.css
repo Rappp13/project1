@@ -1,0 +1,98 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    height: 150vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+.logo:hover {
+    color: darkblue;
+    transform: skewX(2deg);
+}
+
+nav ul {
+    display: flex;
+}
+li {
+    padding: 10px;
+    font-family: Helvetica;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+li:hover {
+    color: darkblue;
+    transform: skewX(2deg);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    transform: skewX(2deg);
+}
+
+
+
+.hero {
+    background-color: #280031;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+section {
+    padding: 20px;
+}
+
+div {
+    height: 130vh;
+    background-color: #280031;
+}
+
+.img-foto {
+    margin-top: 30px;
+    padding: 10px;
+    size: 10px;
+
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    font-family: Helvetica;
+}
